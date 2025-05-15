@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import {  Route, Routes } from 'react-router-dom';
 import './App.css';
 import Head from './component/head/Head';
 import Home from './component/Navebar/Home';
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App" dir="rtl">
       
-        <Head /> {/* Inside the router */}
+        <Head /> 
         <MainMidele/>
         <Footer/>
         <Routes>

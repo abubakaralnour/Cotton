@@ -1,0 +1,144 @@
+.mid h2{
+    color: #bf9456;
+    font-size: 24px;
+}
+.mid{
+    padding: 20px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.mid-p{
+    width: 60%;
+    text-align: center;
+}
+
+
+.midtow , .midthree{
+display: flex;
+justify-content: space-around;
+padding-top: 40px;
+}
+
+.trueimg{
+    height: 20px;
+    background-color: #bf9456;
+    border-radius: 15px;
+}
+.type{
+    display: flex;
+    gap: 2px;
+
+
+}
+.root-type h2{
+    font-size: 24px;
+    color: #bf9456;
+}
+.type p{
+    font-size: 16px;
+    
+}
+.typebtn button{
+  width: 200px;
+  border-radius: 30px;
+  background-color: #bf9456;
+  color: white;
+  font-weight: bold;
+  
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.typebtn:hover button{
+  transform: translateX(1em);
+  background-color: #a77e40; /* Optional darker shade on hover */
+}
+
+
+
+
+.img-massage {
+   
+    border-style: solid;
+    border-width: 5px 0px 5px 0px;
+    border-color: #bf9456;
+    border-radius: 11px 11px 11px 11px;
+    width: fit-content;
+
+}
+
+.img-massage img{
+height: 400px;
+}
+
+.img-massage-three img{
+    width: 80%;
+}
+
+.midFour{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.midFour h2{
+font-size: 24px;
+color: #a77e40;
+}
+
+
+@media (max-width: 768px ){
+
+
+.midtow{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+    text-align: center;padding: 30px;
+}
+
+.midthree{
+ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;padding: 30px;
+}
+.img-massage-three img{
+    width: 100%;
+}
+
+.img-massage img{
+    height: 100%;
+    width: 100%;
+}
+.img-massage {
+    width: 100%;
+    
+}
+    .packets{
+        padding-top: 20px;
+    }
+    .type p{
+        font-size: 14;
+    } 
+
+    .typebtn button{
+        font-size: 20px;
+        width: 80%;
+        text-align: center;
+    }
+
+    
+}
+
+.type span{
+    font-weight: bold;
+}
+

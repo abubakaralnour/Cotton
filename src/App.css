@@ -1,0 +1,195 @@
+.icons{
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 20px;
+}
+.first{
+  display: flex;
+  gap: 3px;
+}
+.second{
+  
+  display: flex;
+  gap: 3px;
+
+}
+.icons img{
+  height: 30px;
+}
+
+.icon{
+  background-color: rgb(182, 136, 76);
+  height: 40px;
+  width:  40px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.nav ul{
+display: flex;
+gap: 30px;
+
+ 
+}
+.nav ul li{
+  display: block;
+  cursor: pointer;
+
+}
+.nav-item-help {
+  position: relative;
+}
+.dropdown-help {
+  position: absolute;
+  left: 50%; /* Centers horizontally */
+  transform: translateX(-50%); /* Adjusts to the exact center */
+  top: 100%;
+  left: 0;
+  background: red;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateY(10px);
+  width: 150px;
+}
+
+.nav-item-help:hover .dropdown-help {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.nav-item-help span{
+  cursor: pointer;
+}
+
+.dropdown-help a {
+  display: block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown-help a:hover {
+  background: #f1f1f1;
+}
+
+.toggleBtn{
+   background-color: rgb(182, 136, 76);
+  height: 40px;
+  width:  40px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+
+
+
+@media (max-width: 768px ){
+
+.offcanv{
+  width: 70% !important;
+  
+}
+  
+  .icons{
+    display: none;
+
+  }
+.nav{
+  display: none;
+}
+.secondTow{
+  display: flex;
+   gap: 8px;
+}
+.secondTow img{
+ 
+  height: 20px;
+
+}
+.offcanv ul li{
+list-style: none;
+cursor: pointer;
+}
+
+}
+.toggle{
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  
+  
+}
+
+
+@media (min-width: 768px ){
+ .toggle{
+  display: none;
+ } 
+}
+
+.offcanvHead{
+display: flex;
+background-color: green;
+justify-content: space-around;
+}
+.imgNavLogo{
+  height: 50px;
+}
+offcanv ul {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+  direction: rtl;
+}
+
+.offcanv ul li {
+  padding: 10px 0;
+}
+
+.offcanv ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.NavSide{
+  display: flex;
+
+
+  
+}
+.NavSide img{
+  text-align: center;
+}
+
+.NavSide p{
+  font-size: 16px;
+  font-family: flat;
+}
+
+
+.footer img{
+  width: 100%;
+  height: 80vh;
+}
+
+
+
+

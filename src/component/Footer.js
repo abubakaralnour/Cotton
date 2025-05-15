@@ -26,7 +26,7 @@ const Footer = () => {
         <hr className="my-4" />
 
         <div className="d-flex flex-column flex-md-row justify-content-between align-items-center">
-          <a href="#">
+          <a href="/">
             <img
             src="https://i.imgur.com/mA5eaLZ.jpeg"
                 alt="Logo"
@@ -35,10 +35,10 @@ const Footer = () => {
           </a>
 
           <div className="mt-4 mt-md-0 text-white">
-            <a href="#" className="text-white mx-3 text-decoration-none">من نحن</a>
-            <a href="#" className="text-white mx-3 text-decoration-none">تصنيفات</a>
-            <a href="#" className="text-white mx-3 text-decoration-none">الجديد</a>
-            <a href="#" className="text-white mx-3 text-decoration-none">تواصل معنا</a>
+            <a href="/" className="text-white mx-3 text-decoration-none">من نحن</a>
+            <a href="/" className="text-white mx-3 text-decoration-none">تصنيفات</a>
+            <a href="/" className="text-white mx-3 text-decoration-none">الجديد</a>
+            <a href="/" className="text-white mx-3 text-decoration-none">تواصل معنا</a>
           </div>
         </div>
       </div>

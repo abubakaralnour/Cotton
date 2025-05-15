@@ -107,7 +107,7 @@ gap: 30px;
 
   }
 .nav{
-  display: none;
+  visibility: hidden;
 }
 .secondTow{
   display: flex;
@@ -123,6 +123,13 @@ list-style: none;
 cursor: pointer;
 }
 
+
+.fixed img{
+  height: 40px;
+ 
+}
+
+
 }
 .toggle{
 
@@ -134,11 +141,26 @@ cursor: pointer;
 }
 
 
+.fixed{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding-right: 20px;
+}
+
+.fixed img{
+  height: 70px;
+  cursor: pointer;
+}
+
+
 @media (min-width: 768px ){
  .toggle{
   display: none;
  } 
 }
+
+
 
 .offcanvHead{
 display: flex;
@@ -171,7 +193,10 @@ offcanv ul {
 }
 .NavSide{
   display: flex;
-
+  flex-direction: row-reverse;
+  justify-content: space-between;
+align-items: center;
+text-align: center;
 
   
 }
@@ -182,8 +207,12 @@ offcanv ul {
 .NavSide p{
   font-size: 16px;
   font-family: flat;
+ 
 }
-
+.NavSide h5{
+position: absolute;
+left: 50%;
+}
 
 .footer img{
   width: 100%;
@@ -191,5 +220,7 @@ offcanv ul {
 }
 
 
-
+.nav ul li{
+  font-family: 'Times New Roman', Times, serif;
+}
 

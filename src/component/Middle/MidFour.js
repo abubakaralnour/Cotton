@@ -3,7 +3,7 @@ import React from 'react'
 const MidFour = () => {
   return (
     <div className='midFour'>
-<h2>لماذا جو سبا هو خيارك الأفضل؟</h2>
+<h2>لماذا مساج قطن هو خيارك الأفضل؟</h2>
 
 
     <div>
@@ -14,7 +14,7 @@ const MidFour = () => {
     </div>
 
     <div>
-        
+
     </div>
 
 

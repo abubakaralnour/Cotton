@@ -6,6 +6,7 @@ import Contact from './component/Navebar/Contact';
 import About from './component/Navebar/About';
 import MainMidele from './component/Middle/MainMidele';
 import Footer from './component/Footer';
+import Fixed from './component/Fixed';
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
       
         <Head /> 
         <MainMidele/>
+        <Fixed/>
         <Footer/>
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

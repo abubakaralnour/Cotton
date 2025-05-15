@@ -32,30 +32,32 @@ function Toggle() {
               placement="end"
               className="offcanv"
             >
-         <Offcanvas.Header className="position-relative" dir="rtl">
-  {/* Custom content */}
-  <div className="NavSide">
-    <h5 className="m-0">مساج قطن</h5>
-    <img src="https://i.imgur.com/mA5eaLZ.jpeg" className="imgNavLogo" alt="Logo" />
-  </div>
+              <Offcanvas.Header className="position-relative" dir="rtl">
+                {/* Custom content */}
+                <div className="NavSide">
+                  <h5 className="m-0">مساج قطن</h5>
+                  <img
+                    src="https://i.imgur.com/mA5eaLZ.jpeg"
+                    className="imgNavLogo"
+                    alt="Logo"
+                  />
+                </div>
 
-  {/* Manually add the close button */}
-  <button
-    type="button"
-    className="btn-close position-absolute top-0 start-0 m-3"
-    aria-label="Close"
-    onClick={handleClose}
-  ></button>
-  
-</Offcanvas.Header>
-
+                <button
+                  type="button"
+                  className="btn-close position-absolute top-0 start-0 m-3"
+                  aria-label="Close"
+                  onClick={handleClose}
+                ></button>
+              </Offcanvas.Header>
 
               <Offcanvas.Body dir="rtl">
                 <ul>
-
-                  <li><Link to="/">الرئيسية</Link></li>
-                  <li><Link to="/about">من نحن</Link></li>
-                  <li><Link to="/contact">اتصل بنا</Link></li>
+                  <li>الرئيسية</li>
+                  <li>من نخن</li>
+                  <li>اتصل بنا</li>
+                  <li>المعرض</li>
+                  <li>مواعيدي المحجوزة</li>
                 </ul>
               </Offcanvas.Body>
             </Offcanvas>

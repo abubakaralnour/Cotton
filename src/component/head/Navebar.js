@@ -3,15 +3,20 @@ function Navebar() {
     <div className="nav">
       <ul>
         <li className="nav-item-help">
-          <span>Help</span>
+          <span>مساعدة</span>
           <div className="dropdown-help">
             <a href="/help#flower-care">Flower Care</a>
             <a href="/help#help-center">Help Center</a>
           </div>
         </li>
-        <li>home</li>
-        <li>about</li>
-        <li>contact</li>
+        <li>الرئيسية</li>
+        <li>من نحن</li>
+        <li>اتصل بنا</li>
+        <li>المعرض</li>
+        <li>مواعيدي المحجوزة</li>
+
+
+
       </ul>
     </div>
   );

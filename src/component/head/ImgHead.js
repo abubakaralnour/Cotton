@@ -29,7 +29,7 @@ const ImgHead = () => {
       <Toggle/>
      <Navebar/>
     
-    <h1> Cotton Msaage</h1>
+    <h1 style={{fontFamily:"monospace"}}> مساج قطن</h1>
   </div>
    
 </div>
